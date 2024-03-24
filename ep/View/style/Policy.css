@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.policy-main-container {
+    display: flex;
+    margin: 0px 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.policy-side-bar {
+    min-width: 220px;
+    border-right: 1px solid #979797;
+    color: #ABABAB;
+    margin-right: 10px;
+}
+
+.policy-main-view {
+    flex-grow: 7;
+    color: #f3f3f3;
+    padding: 0px 24px;
+}
+
+.policy-block-wrapper {
+    margin-top: 12px;
+}
+
+.policy-block-wrapper > h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.policy-block-wrapper > p {
+    margin: 0px 12px;
+    color:#bebebe;
+}
+
+.policy-main-view > h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.policy-desc {
+    padding: 0px 8px;
+}
+
+.policy-default {
+    margin-bottom: 12px;
+}
+
+.policy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.policy-list > a {
+    cursor: pointer;
+    padding: 4px 12px;
+    font-weight: 500;
+   
+}
+
+.policy-list > li:hover {
+    color: #f3f3f3;
+}
+.policy-list a{
+    color: white !important;
+    text-decoration-line: none !important;
+}

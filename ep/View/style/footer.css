@@ -1,0 +1,54 @@
+
+.footer-contain2{
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+    padding : 80px 30px 50px 30px; 
+    display: flex;
+}
+.footer-row1,
+.footer-row2,
+.footer-row3{
+    width: 20%;
+}
+.footer-tieude{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer-row4{
+    width : 40%;
+}
+.footer-noidung{
+    color: rgb(167, 165, 165);
+    padding: 20px 0 0 0;
+    line-height: 2;
+}
+.footer-contain2 a{
+    color : rgb(167, 165, 165) ;
+    text-decoration: none ;
+
+}
+.footer-contain2 a:hover{
+    color : white;
+}
+.footer-thongtin{
+    color: rgb(167, 165, 165);
+    padding: 20px 0 0 0;
+    line-height: 1.5;
+}
+.lienhe1{
+    color: rgb(148, 23, 23);
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.icon-contain{
+    display: flex;
+    padding : 20px 0 0 0 ;
+}
+.icon-contain svg{
+    height:30px;
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}

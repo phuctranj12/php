@@ -1,0 +1,65 @@
+
+.login-contain{
+    background-color: white;
+    width : 100%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 0 100px 0;
+}
+.login-left{
+    width : 40%;
+    padding:0 30px 0 100px;
+}
+.login-right
+{
+    width : 60%;
+    padding:0 50px 0 30px;
+}
+.gioithieu{
+    font-weight: bold;
+    font-size: 40px;
+    color : black;
+    line-height: 1.5;
+}
+.intro{
+    font-size: 20px;
+    padding: 50px 0 0 0 ;
+    color : white;
+    line-height: 1.5;
+}
+.login-contain .login-right .form-right form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    padding:70px 0 0 0 ;
+    overflow: visible;
+ }
+ input:focus {
+    outline: none; /* Loại bỏ focus ring khi input được focus */
+}
+.button-register{
+    padding:50px 0 0 0px;
+}
+.button-register button{
+    background-color: #DA2128;
+    border:1px solid white;
+    text-align: center;
+   box-sizing: border-box;
+   letter-spacing: -0.015em;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 10px 10px 10px;
+   color: white;
+   cursor: pointer;
+}
+.button-register button:hover{
+  background-color: black;
+}
+

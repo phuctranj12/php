@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner-contain {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-contain .contain-left {
+  padding: 0 0 0 50px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.banner-contain .contain-right {
+  display: flex;
+  width: 50%;
+}
+
+.banner-contain .contain-left .breadcrumb-wrap {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+
+.banner-contain .contain-left .title-date {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 300px 0 0 0;
+}
+
+.banner-contain .contain-left .title-date .date {
+  margin: 0 0 20px 0;
+  color: #C4C4C4;
+}
+
+.banner-contain .contain-left .network-contain {
+  margin-top: auto;
+}
+
+.banner-contain .contain-left .network-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-contain .contain-left .network-icon img {
+  max-height: 17px;
+  width: 22px;
+  margin-top: 5px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  display: contents;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+/*  padding: 8px;*/
+  color: black;
+  content: ">\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Add underline on mouse-over */
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+.banner-contain .contain-right .feature-image {
+  width: 100%;
+}
+
+.banner-contain .contain-right .feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-contain .content {
+  padding-top: 80px;
+  margin: auto;
+  max-width: 864px;
+}
+
+.blog-contain .content .toc {
+  margin-bottom: 20px;
+}
+
+.blog-contain .content .toc .toc-list {
+  padding-left: 10px;
+}
+
+.blog-contain .content .toc .toc-list li {
+  list-style-type: none;
+}
+
+.blog-contain .content .toc .toc-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-contain .content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+}
